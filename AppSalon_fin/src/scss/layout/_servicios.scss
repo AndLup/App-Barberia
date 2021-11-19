@@ -9,6 +9,7 @@
         padding: $separacion / 2;
         border-radius: 1rem;
 
+        
         @include tablet {
             margin-bottom: 0;
         }
@@ -29,7 +30,7 @@
 
         &.seleccionado {
             background-color: $azul;
-
+            
             p {
                 color: $blanco;
             }
